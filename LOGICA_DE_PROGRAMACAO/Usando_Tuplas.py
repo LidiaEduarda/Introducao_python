@@ -28,6 +28,7 @@ for posicao in range(0, len(tupla_produtos)):
         print(f'{tupla_produtos[posicao]:.<30}', end='') 
     else:
         print(f'R${tupla_produtos[posicao]:>7.2f}')
+man = 'kel'
 print('_' * 40)
 
 
